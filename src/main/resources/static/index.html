@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <style>
+     /*   li {
+            color: red;
+        }*/
+    </style>
+    <title>Icar</title>
+    <script>
+
+        var userType = 'BUYER';
+        var cars;
+
+        $(document).ready(
+            loadCars()
+        );
+
+        function loadCars() {
+            $.ajax({
+                url: ('http://localhost:9090/api/car') + (userType === 'RETAILER' ? '/user/a8d9e430-74d6-45c4-b59f-c664b711c03c' : ''),
+                type: 'GET',
+                async: false
+            }).then(function (data) {
+                cars = data;
+                $('#car-list').html('');
+                for (let car of cars) {
+                    fillCarTemplate(car);
+                }
+            });
+        }
+
+        function fillCarTemplate(car) {
+            //on récupère la liste ul où qu'on devra remplir de li
+            let list = $('#car-list');
+            //on récupère le template
+            let template = $('#car-template').html();
+            //on crée une instanciation du template li
+            let item = $('<li> ' + template + '</li>');
+            //on remplit les champs adéquats du template
+            $('.car-brand', item).html(car.brand);
+            $('.car-market-price', item).html(car.marketPrice);
+            $('.car-year', item).html(car.year);
+            $('.car-vin', item).html(car.vin);
+            //on rajoute le template au ul
+            list.append(item);
+        }
+
+        function switchUserType() {
+            userType = userType === 'RETAILER' ? 'BUYER' : 'RETAILER';
+            $('#form').css("display",  userType === 'RETAILER' ? 'block' : 'none');
+            loadCars();
+        }
+
+        function updateFirstCar() {
+            let carUpdated = cars[0];
+            carUpdated.brand = $('#form-car-brand').val();
+            carUpdated.marketPrice = $('#form-car-marketPrice').val();
+
+            $.ajax({
+                url: 'http://localhost:9090/api/car',
+                type: 'PUT',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                data: JSON.stringify(carUpdated),
+                async: false,
+                success: loadCars()
+            });
+        }
+    </script>
+</head>
+<body>
+    <button onclick="switchUserType()">Switch User</button>
+    Modifier la première voiture:<br>
+    <form id="form" action="#" onsubmit="return updateFirstCar();">
+        Marque:<br>
+        <input type="text" id="form-car-brand" value="">
+        Prix:<br>
+        <input type="text" id="form-car-marketPrice" value="">
+        <input type="submit" value="Submit">
+    </form>
+    <ul id="car-list"></ul>
+
+    <div id="car-template">
+        <p class="car-brand"></p>
+        <p class="car-market-price"></p>
+        <p class="car-year"></p>
+        <p class="car-vin"></p>
+    </div>
+
+
+</body>
+</html>

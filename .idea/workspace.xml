@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="15534be8-a46b-4a1a-a0fa-1d4ec264346e" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1OY8BpgYFiL9RmNENfexekYuvTT" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\t_9805_devops\Downloads\ecar\ecar\src\main\resources\static" />
+      <recent name="C:\Users\t_9805_devops\Downloads\ecar\ecar\src\main\resources\i18n" />
+      <recent name="C:\Users\t_9805_devops\Downloads\ecar\ecar\src\main\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\t_9805_devops\Downloads\ecar\ecar\src\main\resources\i18n" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="EcarApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ecar" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="be.technocite.ecar.EcarApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15534be8-a46b-4a1a-a0fa-1d4ec264346e" name="Default Changelist" comment="" />
+      <created>1564143036306</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564143036306</updated>
+      <workItem from="1564143038477" duration="72000" />
+      <workItem from="1564143124680" duration="8847000" />
+      <workItem from="1565602738234" duration="12006000" />
+      <workItem from="1565681801111" duration="25368000" />
+      <workItem from="1565767060739" duration="8807000" />
+      <workItem from="1565775902361" duration="14703000" />
+      <workItem from="1565791543108" duration="3381000" />
+      <workItem from="1566201052134" duration="15979000" />
+      <workItem from="1566294013708" duration="500000" />
+      <workItem from="1566385686371" duration="2978000" />
+      <workItem from="1566474846254" duration="2877000" />
+      <workItem from="1566975901546" duration="7877000" />
+      <workItem from="1567151796127" duration="564000" />
+      <workItem from="1568620598463" duration="623000" />
+      <workItem from="1568628466637" duration="585000" />
+      <workItem from="1568629077846" duration="1274000" />
+      <workItem from="1568633645041" duration="1564000" />
+      <workItem from="1568636121315" duration="254000" />
+      <workItem from="1568636398002" duration="748000" />
+      <workItem from="1568639605475" duration="2396000" />
+      <workItem from="1568644067331" duration="1159000" />
+      <workItem from="1568714064551" duration="710000" />
+      <workItem from="1568885216698" duration="266000" />
+      <workItem from="1568885869022" duration="272000" />
+      <workItem from="1568967423787" duration="20000" />
+      <workItem from="1568972969501" duration="4811000" />
+      <workItem from="1568986323046" duration="1508000" />
+      <workItem from="1569222733616" duration="2020000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
