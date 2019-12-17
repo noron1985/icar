@@ -47,13 +47,13 @@ public class UserDaoImpl implements UserDao, RowMapper<User> {
         return jdbcTemplate.queryForObject("select count(*) from public.user", Integer.class);
     }
 
-    @PostConstruct
-    private void postConstruct() {
-        if(count() == 0) {
-            jdbcTemplate.update("insert into public.user (id, pseudo, password, user_type)" +
-                    "values (?,?,?,?)", randomUUID().toString() ,"dotista", "Spirou", RETAILER.toString());
-            jdbcTemplate.update("insert into public.user (id, pseudo, password, user_type)" +
-                    "values (?,?,?,?)", randomUUID().toString() ,"acheteurBauf23", "Baguette", BUYER.toString());
-        }
-    }
+//    @PostConstruct
+//    private void postConstruct() {
+//        if(count() == 0) {
+//            jdbcTemplate.update("insert into public.user (id, pseudo, password, user_type)" +
+//                    "values (?,?,?,?)", randomUUID().toString() ,"dotista", "Spirou", RETAILER.toString());
+//            jdbcTemplate.update("insert into public.user (id, pseudo, password, user_type)" +
+//                    "values (?,?,?,?)", randomUUID().toString() ,"acheteurBauf23", "Baguette", BUYER.toString());
+//        }
+//    }
 }
